@@ -134,7 +134,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0.06, y: 0.06}
+  m_SizeDelta: {x: 0.34, y: 0.08}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &6633255054423738184
 MeshRenderer:
@@ -156,7 +156,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5899567534998778787, guid: 6f48da1339dada247864883051c024a6, type: 2}
+  - {fileID: 6012080355370164626, guid: f75b6952568eb244ea15495febc34083, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -198,10 +198,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Next
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6f48da1339dada247864883051c024a6, type: 2}
-  m_sharedMaterial: {fileID: -5899567534998778787, guid: 6f48da1339dada247864883051c024a6,
+  m_fontAsset: {fileID: 11400000, guid: f75b6952568eb244ea15495febc34083, type: 2}
+  m_sharedMaterial: {fileID: 6012080355370164626, guid: f75b6952568eb244ea15495febc34083,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -226,8 +226,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.37
+  m_fontSizeBase: 0.37
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -360,7 +360,7 @@ MonoBehaviour:
   Stroke: {fileID: 6424260006290498348}
   Text: {fileID: 2271232306829363412}
   Configurations: {fileID: 11400000, guid: 110907535a97c6c49b67fe9456e6884d, type: 2}
-  ActiveColor: {r: 0.8509804, g: 0.8509804, b: 0.8509804, a: 1}
+  ActiveColor: {r: 0, g: 0.4686737, b: 1, a: 1}
   PressedColor: {r: 0.33333334, g: 0.50980395, b: 0.9490196, a: 1}
   DisabledColor: {r: 0.4862745, g: 0.4862745, b: 0.4862745, a: 1}
   HoverGradientColor: {r: 0.5764706, g: 0.5764706, b: 0.5764706, a: 1}
@@ -443,7 +443,7 @@ Transform:
   m_Children:
   - {fileID: 6094360391435728389}
   m_Father: {fileID: 512793481221969857}
-  m_LocalEulerAnglesHint: {x: -0.924, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6424260005475842884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -471,11 +471,11 @@ MonoBehaviour:
   stencilReadMask: 255
   stencilWriteMask: 255
   pivot: 1
-  width: 0.06
-  height: 0.06
-  type: 3
+  width: 0.34
+  height: 0.08
+  type: 1
   cornerRadiusMode: 0
-  cornerRadii: {x: 0.01, y: 0.01, z: 0.01, w: 0.01}
+  cornerRadii: {x: 1, y: 1, z: 1, w: 1}
   thickness: 0.5
   thicknessSpace: 0
   matchDashSpacingToSize: 1
@@ -492,7 +492,7 @@ MonoBehaviour:
     type: 1
     space: 0
     colorStart: {r: 0.5764706, g: 0.5764706, b: 0.5764706, a: 1}
-    colorEnd: {r: 0.8509804, g: 0.8509804, b: 0.8509804, a: 1}
+    colorEnd: {r: 0, g: 0.4686737, b: 1, a: 1}
     linearStart: {x: 0, y: 0, z: 0}
     linearEnd: {x: 0, y: 1, z: 0}
     radialOrigin: {x: 0, y: 0, z: 0}
@@ -526,7 +526,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fc140bb5568d5e4468a920fbb5f1e083, type: 2}
+  - {fileID: 2100000, guid: 08dcfbb090c2fc94ca0c118fdbf2d5f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -609,8 +609,8 @@ MonoBehaviour:
   stencilReadMask: 255
   stencilWriteMask: 255
   pivot: 1
-  width: 0.065
-  height: 0.065
+  width: 0.345
+  height: 0.085
   type: 3
   cornerRadiusMode: 0
   cornerRadii: {x: 0.01, y: 0.01, z: 0.01, w: 0.01}
@@ -844,7 +844,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.0000000018626451, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0.015}
-  m_LocalScale: {x: 0.085, y: 0.085, z: 0.08}
+  m_LocalScale: {x: 0.365, y: 0.105, z: 0.08}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8569454552922698619}

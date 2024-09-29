@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32054d3591d46494b8d8c7f83ae940ad, type: 3}
   m_Name: TextDisplayTextData
   m_EditorClassIdentifier: 
-  TextsData: []
+  TextsData:
+  - Id: 1
+    Text: Our brain is like a library that stores all our memories. When something
+      happens, our brain makes a memory by connecting different parts together
+    TextAreaSize: {x: 0, y: 0}
